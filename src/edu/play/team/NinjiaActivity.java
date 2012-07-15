@@ -1,15 +1,27 @@
 package edu.play.team;
 
-import edu.play.team.view.StartView;
 import android.app.Activity;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
+import android.util.DisplayMetrics;
+import edu.play.team.utility.StaticValueManager;
+import edu.play.team.view.StartView;
 
 public class NinjiaActivity extends Activity {
-    /** Called when the activity is first created. */
+    
+	private Configuration config;
+	private Resources resources;
+	private StaticValueManager SVManager;
+	private DisplayMetrics disManager;
+	public Handler handler;
+	
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(new StartView(this));
+        setContentView(new StartView(this).getStartView());
+        
     }
-
 }
