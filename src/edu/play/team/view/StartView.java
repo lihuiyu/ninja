@@ -40,8 +40,7 @@ public class StartView implements OnClickListener{
 			break;
 		case R.id.setting_item:
 			break;
-		}
-		
+		}	
 	}
 	
 	 

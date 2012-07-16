@@ -1,5 +1,10 @@
-package edu.play.team;
+package edu.play.team.activity;
 
+import edu.play.team.R;
+import edu.play.team.R.anim;
+import edu.play.team.R.drawable;
+import edu.play.team.R.id;
+import edu.play.team.R.layout;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;

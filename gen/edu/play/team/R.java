@@ -59,8 +59,20 @@ public final class R {
         public static final int white=0x7f050004;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int logo_team=0x7f020001;
+        public static final int begin=0x7f020000;
+        public static final int gamegroup=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int logo_team=0x7f020003;
+        public static final int plane_forward=0x7f020004;
+        public static final int plane_left=0x7f020005;
+        public static final int plane_right=0x7f020006;
+        public static final int planeforward=0x7f020007;
+        public static final int planeleft=0x7f020008;
+        public static final int planeright=0x7f020009;
+        public static final int rudder_base=0x7f02000a;
+        public static final int rudder_press=0x7f02000b;
+        public static final int rudder_release=0x7f02000c;
+        public static final int test=0x7f02000d;
     }
     public static final class id {
         public static final int setting_item=0x7f070002;
